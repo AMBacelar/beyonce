@@ -1,5 +1,5 @@
 // Fetch retailers
-const apibase = process.env.NEXT_PUBLIC_BACKEND_API;
+const apibase = process.env.NEXT_PUBLIC_BACKEND_API || '';
 export const fetchRetailers = async () => {
   try {
     const response = await fetch(`${apibase}/retailers/?format=json`);
