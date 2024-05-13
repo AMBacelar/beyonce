@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  beyonce-front:
+    container_name: beyonce-front
+    build: ./raphael/.
+    ports:
+      - "3000:3000"
+    depends_on:
+      - beyonce-back
+  beyonce-back:
+    container_name: beyonce-back
+    build: ./backend/.
+    ports:
+      - "8000:8000"

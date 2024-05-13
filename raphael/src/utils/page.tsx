@@ -1,5 +1,5 @@
 import '../../css/general.css'
-import { ClientOnly } from '../../css/client'
+import { ClientOnly } from '../app/[[...slug]]/client'
 
 export function generateStaticParams() {
     return [{ slug: [''] }]
