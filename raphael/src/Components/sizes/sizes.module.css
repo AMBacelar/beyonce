@@ -1,0 +1,9 @@
+/* Sizes for cards */
+.sizeCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10rem;
+  margin-top: 2rem;
+}

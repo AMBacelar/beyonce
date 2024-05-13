@@ -1,0 +1,12 @@
+.searchcontainer,
+.dropdownContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.materialsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

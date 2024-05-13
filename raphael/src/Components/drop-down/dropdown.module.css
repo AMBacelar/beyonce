@@ -1,0 +1,35 @@
+.optionsContainer {
+  width: 10rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.9rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "DM Sans";
+  font-size: 20px;
+  color: #712e49;
+}
+
+#defaultOption {
+  text-align: center;
+  font-weight: bold;
+}
+
+.optionsContainer #defaultOption option {
+  color: #712e49;
+  background-color: red;
+}
+
+.options:hover {
+  color: #712e49;
+}
+/* 
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("path/to/custom-icon.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px; /* Adjust the padding to make room for the icon */
+/*} */
