@@ -1,13 +1,13 @@
 services:
-  beyonce-front:
-    container_name: beyonce-front
+  front:
+    container_name: front
     build: ./raphael/.
     ports:
       - "80:3000"
     depends_on:
-      - beyonce-back
-  beyonce-back:
-    container_name: beyonce-back
+      - back
+  back:
+    container_name: back
     build: ./backend/.
     ports:
       - "8000:8000"
