@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   beyonce-front:
     container_name: beyonce-front
